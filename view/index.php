@@ -35,7 +35,7 @@
 
                     <button class="btn btn-lg btn-primary" type="submit">Login</button>
                     <label class="text-center">                      
-                        <a href="../../view/paginas/CadastroUsuario.php"> Cadastre Aqui</a>
+                        <a href="../view/paginas/CadastroUsuario.php">Register Here</a>
                     </label>
                 </form><!-- /form -->
             </div><!-- /card-container -->

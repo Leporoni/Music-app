@@ -3,14 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/music-app/model/Album.php</file>
-            <file>file:/C:/xampp/htdocs/music-app/model/Usuario.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/view/index.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/controller/ValidaLogin.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/view/cabecario.php</file>
             <file>file:/C:/xampp/htdocs/music-app/controller/UsuarioController.php</file>
-            <file>file:/C:/xampp/htdocs/music-app/dao/AlbumDAO.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/view/CadastroArtista.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/assets/css/login.css</file>
+            <file>file:/C:/xampp/htdocs/music-app/controller/ArtistaController.php</file>
             <file>file:/C:/xampp/htdocs/music-app/view/Home.php</file>
-            <file>file:/C:/xampp/htdocs/music-app/model/Artista.php</file>
-            <file>file:/C:/xampp/htdocs/music-app/dao/ArtistaDao.php</file>
-            <file>file:/C:/xampp/htdocs/music-app/dao/UsuarioDao.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/utils/Message.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/dao/Conexao.class.php</file>
+            <file>file:/C:/xampp/htdocs/music-app/view/CadastroUsuario.php</file>
         </group>
     </open-files>
 </project-private>

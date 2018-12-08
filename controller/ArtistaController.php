@@ -7,10 +7,10 @@ class ArtistaController {
     }    
     
     public function getArtista($id) {
-        require_once  '../../model/Usuario.class.php';
-        require_once '../../dao/UsuarioDAO.class.php';
-        require_once '../../dao/ArtistaDAO.class.php';
-        require_once '../../dao/Conexao.class.php';
+        require_once  '../model/Usuario.class.php';
+        require_once '../dao/UsuarioDAO.class.php';
+        require_once '../dao/ArtistaDAO.class.php';
+        require_once '../dao/Conexao.class.php';
 
         $artistaDAO = new ArtistaDAO();
         
@@ -19,23 +19,23 @@ class ArtistaController {
     }
     
     public function saveArtista($artista) {
-        require_once '../../dao/Conexao.class.php';
-        require_once '../../dao/ArtistaDAO.class.php';
-        $artistaDAO = new ArtistasDAO();
+        require_once '../dao/Conexao.class.php';
+        require_once '../dao/ArtistaDAO.class.php';
+        $artistaDAO = new ArtistaDAO();
         $sucesso = $artistaDAO->inserir($artista);
         return $sucesso;
     }
 
     public function editArtista($artista) {
-        $artistaDAO = new ArtistasDAO();
+        $artistaDAO = new ArtistaDAO();
         $sucesso = $artistaDAO->update($artista);
         return $sucesso;
     }
     
         public function deleteArtista($id) {
-        require_once '../../dao/Conexao.class.php';
-        require_once '../../dao/ArtistaDAO.class.php';
-        $artistaDAO = new ArtistasDAO();
+        require_once '../dao/Conexao.class.php';
+        require_once '../dao/ArtistaDAO.class.php';
+        $artistaDAO = new ArtistaDAO();
         $sucesso = $artistaDAO->delete($id);
         return $sucesso;
     }

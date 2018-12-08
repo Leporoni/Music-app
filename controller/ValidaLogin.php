@@ -1,8 +1,8 @@
 <?php
 
-require_once '../../dao/UsuarioDAO.class.php';
-require_once '../../dao/Conexao.class.php';
-require_once '../../model/Usuario.class.php';
+require_once '../dao/UsuarioDAO.class.php';
+require_once '../dao/Conexao.class.php';
+require_once '../model/Usuario.class.php';
 
 
 $login = $_POST['inp_login'];

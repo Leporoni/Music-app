@@ -12,7 +12,7 @@
             <div class="panel" id="form-box">
 
                 <form action="CadastroUsuario.php" method="post" id="form-cadastro">
-                    <h1 class="text-center">Cadastre-se</h1>                    
+                    <h1 class="text-center">Register</h1>                    
 
                     <div class="form-group">
                         <label class="sr-only" for="login">Login</label>
@@ -35,8 +35,8 @@
 
                     <?php
                     if ($_POST) {
-                        require_once '../controller/cadastro/UsuarioController.php';
-                        require_once '../model/Usuario.class.php';
+                        require_once '../controller/UsuarioController.php';
+                        require_once '../model/Usuario.php';
                         require_once '../utils/Message.php';
                         $usuario = new Usuario();
                         $usuarioController = new UsuarioController();
